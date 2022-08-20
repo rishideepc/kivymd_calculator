@@ -11,6 +11,7 @@ kivy.require('1.9.1')
 
 Window.size = (370, 600)
 
+
 class MyRoot(BoxLayout):
     
     def __init__(self):
