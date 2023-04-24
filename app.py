@@ -41,6 +41,7 @@ class MainApp(MDApp):
 
     def build(self):
         self.title= "KivyMD Calculator"
+        self.theme_cls.theme_style = "Light"
         return MyRoot()
 
 mainapp= MainApp()

@@ -3,117 +3,140 @@
     calc_field: calc_field
 
     orientation: 'vertical'
+    # padding: 30
+    # spacing: 30
+    # elevation: 8
     TextInput:
         id: calc_field
         height: 100
         size_hint: (1, None)
         readonly: True
         disabled: True
-        font_size: 50
+        font_size: 25
     GridLayout:
         rows: 4
         columns: 4
-        padding: 20
-        spacing: 20
+        padding: 30
+        spacing: 30
+        elevation: 8
         height: 400
         size_hint: (1, None)
-        Button: 
-            text: "1"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-1"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('1')
 
-        Button: 
-            text: "2"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-2"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('2')
 
-        Button: 
-            text: "3"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-3"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('3')
 
-        Button: 
-            text: "+"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "plus"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('+')
 
-        Button: 
-            text: "4"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-4"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('4')
 
-        Button: 
-            text: "5"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-5"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('5')
 
-        Button: 
-            text: "6"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-6"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('6')
 
-        Button: 
-            text: "-"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "minus"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('-')
 
-        Button: 
-            text: "7"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-7"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('7')
 
-        Button: 
-            text: "8"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-8"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('8')
 
-        Button: 
-            text: "9"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-9"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('9')
 
-        Button: 
-            text: "*"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "close"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('*')
 
-        Button: 
-            text: "("
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "code-brackets"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('(')
 
-        Button: 
-            text: "0"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "numeric-0"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('0')
 
-        Button: 
-            text: ")"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "code-brackets"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol(')')
 
-        Button: 
-            text: "/"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "slash-forward"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('/')
 
     BoxLayout:
         orientation: 'horizontal'
-        padding: 15
-        spacing: 15
+        padding: 50
+        spacing: 50
         height: 100
         size_hint: (1, None)
-        Button: 
-            text: "."
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "circle-small"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.calc_symbol('.')
 
-        Button: 
-            text: "C"
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "alpha-c-circle"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.clear()
 
-        Button: 
-            text: "="
-            font_size: 26
+        MDFloatingActionButton: 
+            icon: "equal"
+            md_bg_color: (0.75, 0.75, 0.75, 0.75)
+            elevation_normal: 8
             on_press: root.get_result()
