@@ -12,7 +12,7 @@ The APK file is not deployed yet. Kindly make sure you go through the instructio
 ScreenShots:
 
 
-<img width="275" alt="image" src="https://user-images.githubusercontent.com/82643613/165031975-4870ae3a-af91-4899-a517-b31648764097.png">
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/82643613/233902173-dd8916c1-b1b8-439a-b0d6-dde0aac99b08.png">
 <br><br>
-<img width="275" alt="image" src="https://user-images.githubusercontent.com/82643613/165032216-5289149c-189b-4c0f-b679-89499859985c.png">
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/82643613/233902382-59725f2e-8feb-4689-ab90-2d320a0511e2.png">
 
